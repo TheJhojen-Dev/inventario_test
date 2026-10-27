@@ -17,12 +17,4 @@
             <field name="is_published">True</field>
         </record>
     </data>
-
-    <!-- Ocultar dashboards por defecto de Logistics (Stock) -->
-    <record id="spreadsheet_dashboard_stock.spreadsheet_dashboard_inventory_flow" model="spreadsheet.dashboard">
-        <field name="is_published">False</field>
-    </record>
-    <record id="spreadsheet_dashboard_stock.spreadsheet_dashboard_warehouse_operations" model="spreadsheet.dashboard">
-        <field name="is_published">False</field>
-    </record>
 </odoo>

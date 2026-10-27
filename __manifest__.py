@@ -10,7 +10,6 @@
     "depends": [
         "base",
         "spreadsheet_dashboard",
-        "spreadsheet_dashboard_stock",
         "daily_tax",
     ],
     "data": [
